@@ -1,0 +1,121 @@
+/* --- BODY --- */
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+               'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* --- NAVBAR --- */
+.navegacion { background-color: #79c4e7; }
+.titulo { font-size: medium; color: white !important; }
+.boton {
+  width: auto;
+  min-width: 120px;
+  padding: 8px 10px;
+  background-color: rgb(255, 255, 255);
+  color: white !important;
+  margin: 5px;
+  border-radius: 1vw;
+  font-size: 2.3vh;
+  text-align: center;
+  box-shadow: 1px 1px 12px 1px rgba(0,0,0,0.32);
+}
+.boton:hover { background-color: #7bcbf0; }
+
+/* --- SECCIONES --- */
+.proyecto, .objetivo, .app {
+  color: white;
+  padding: 60px 5%;
+}
+.proyecto { background-color: #3f7791; }
+.objetivo { background-color: #7bcbf0; }
+.app { background-color: #79c4e7; }
+
+/* --- VIDEO --- */
+.video-proyecto {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  aspect-ratio: 16/9;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto;
+}
+.blanco{
+  background-color: white !important;
+  color:black !important;
+}
+/* --- IMÁGENES APP --- */
+.app-logo { max-width: 250px; }
+.qr-code { max-width: 200px; }
+
+/* Responsive logo + QR */
+@media (max-width: 992px) {
+  .app-logo { max-width: 200px; }
+  .qr-code { max-width: 150px; }
+  .d-flex.flex-lg-row { flex-direction: column !important; }
+}
+
+/* --- BOTÓN DESCARGAR --- */
+.btn {
+  display: inline-block;
+  margin: 20px auto;
+  border-radius: 2vw;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #2e77a1 0%, #1C6EA4 37%, #191382 100%);
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+}
+.btn a { text-decoration: none; color: white !important; }
+
+/* --- FOOTER --- */
+footer { background-color: rgb(23, 90, 135); color: white; }
+.footer-bottom { background-color: #5aaacf; }
+
+/* --- CONTACTO --- */
+.contacto {
+  background-color: #568faa; 
+  color: white;
+  padding: 60px 5%;
+}
+
+.contacto-lista li {
+  color: white;
+  list-style: none;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+/* --- MAPA RESPONSIVO --- */
+.mapa-contenedor {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* Mantiene proporción 16:9 */
+  height: 0;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.mapa-contenedor iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+ 
+
+
+
+
+
+
+
+
